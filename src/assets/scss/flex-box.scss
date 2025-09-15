@@ -1,0 +1,112 @@
+.flex {
+  @include generate-responsive() {
+    display: flex;
+  }
+}
+
+.flex-grow {
+  @include generate-responsive() {
+    flex-grow: 1;
+  }
+}
+
+.wrap {
+  @include generate-responsive() {
+    flex-wrap: wrap;
+  }
+}
+
+.block {
+  @include generate-responsive() {
+    display: block;
+  }
+}
+
+.none {
+  @include generate-responsive() {
+    display: none;
+  }
+}
+
+.flex-end {
+  @include generate-responsive() {
+    display: flex;
+    justify-content: flex-end;
+  }
+}
+
+.space-between {
+  @include generate-responsive() {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+.space-even {
+  @include generate-responsive() {
+    display: flex;
+    justify-content: space-evenly;
+  }
+}
+
+.space-around {
+  @include generate-responsive() {
+    display: flex;
+    justify-content: space-around;
+  }
+}
+
+.h-center {
+  @include generate-responsive() {
+    display: flex;
+    justify-content: center;
+  }
+}
+
+.v-center {
+  @include generate-responsive() {
+    display: flex;
+    align-items: center;
+  }
+}
+
+.center {
+  @include generate-responsive() {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+.gap-1 {
+  @include generate-responsive() {
+    gap: 1rem;
+  }
+}
+.gap-2 {
+  @include generate-responsive() {
+    gap: 2rem;
+  }
+}
+
+.column {
+  @include generate-responsive() {
+    flex-direction: column;
+  }
+}
+
+.h-100p {
+  @include generate-responsive() {
+    height: 100%;
+  }
+}
+.fw {
+  @include generate-responsive() {
+    width: 100%;
+  }
+}
+.fh {
+  @include generate-responsive() {
+    height: 100%;
+  }
+}

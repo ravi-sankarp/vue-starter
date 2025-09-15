@@ -1,0 +1,77 @@
+form {
+  .error {
+    margin: 0.5rem 0.2rem;
+    min-height: 0.7rem;
+    p {
+      color: var(--alert);
+      font-size: 0.7rem;
+    }
+  }
+}
+
+.form-label-input {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  color: var(--black);
+  font-weight: 450;
+  line-height: 1.25rem;
+  font-size: 0.875rem;
+  margin-bottom: 5px;
+  max-width: max-content;
+  &.imp {
+    position: relative;
+    &::after {
+      position: absolute;
+      content: '*';
+      color: var(--alert);
+      right: -8px;
+      top: -1px;
+    }
+  }
+}
+datalist {
+  position: absolute;
+  max-height: 20em;
+  border: 0 none;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+select,
+input {
+  display: block;
+  width: 100%;
+  color: #495057;
+  padding: 0.5rem 0.5rem;
+  border-radius: 5px;
+  border: solid 0.0725rem #ced4da;
+
+  &:hover {
+    border-color: #a9a9a9;
+  }
+  &:focus {
+    border-color: var(--brand-color);
+    outline: 0;
+  }
+}
+.select-box {
+  position: relative;
+  select {
+    appearance: none;
+  }
+  &::before {
+    content: '';
+    display: block;
+    height: 1em;
+    width: 1em;
+    background-image: url('/src/assets/images/select-icon.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+    top: 0.55em;
+    right: 0.65em;
+  }
+}

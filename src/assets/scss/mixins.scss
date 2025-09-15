@@ -1,0 +1,50 @@
+@import 'vars';
+
+@mixin use-reponsive($size) {
+  // Responsive styles
+  @if $size == sm {
+    @media (max-width: $sm) {
+      @content;
+    }
+  } @else if $size == md {
+    @media (max-width: $md) {
+      @content;
+    }
+  } @else if $size == lg {
+    @media (max-width: $lg) {
+      @content;
+    }
+  } @else if $size == xl {
+    @media (max-width: $xl) {
+      @content;
+    }
+  }
+}
+
+// generate responsive media query classes
+@mixin generate-responsive() {
+  // Base style, without a suffix
+  @content;
+
+  // Responsive styles
+  @media (max-width: $sm) {
+    &-sm {
+      @content;
+    }
+  }
+  @media (max-width: $md) {
+    &-md {
+      @content;
+    }
+  }
+  @media (max-width: $lg) {
+    &-lg {
+      @content;
+    }
+  }
+  @media (max-width: $xl) {
+    &-xl {
+      @content;
+    }
+  }
+}

@@ -1,0 +1,23 @@
+.custom-scroll {
+  /* width */
+  &::-webkit-scrollbar {
+    width: 5px;
+  }
+
+  /* Track */
+  &::-webkit-scrollbar-track {
+    background: transparent;
+  }
+
+  /* Handle */
+  &::-webkit-scrollbar-thumb {
+    border-radius: 12px;
+    background-color: #999999;
+    height: 1px;
+
+    /* Handle on hover */
+    &:hover {
+      background-color: #828282;
+    }
+  }
+}

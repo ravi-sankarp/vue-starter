@@ -1,0 +1,63 @@
+.weight-400 {
+  font-weight: 400;
+}
+.weight-500 {
+  font-weight: 500;
+}
+.weight-600 {
+  font-weight: 600;
+}
+
+.text {
+  color: var(--text-color);
+}
+.text-1 {
+  color: var(--text-color-1);
+}
+.brand {
+  color: var(--brand-color);
+}
+.brand-1 {
+  color: var(--brand-color-1);
+}
+.black {
+  color: var(--black);
+}
+.white {
+  color: var(--white);
+}
+.text-success {
+  color: var(--success);
+}
+.text-error {
+  color: var(--alert);
+}
+.xs {
+  font-size: 0.7rem; // 10px
+}
+.s {
+  font-size: 0.85rem; // 12px
+}
+.m {
+  font-size: 1rem; // 14px
+}
+.l {
+  font-size: 1.15rem; // 16px
+}
+.xl {
+  font-size: 1.285rem; // 18px
+}
+.xxl {
+  font-size: 1.4286rem; // 20px
+}
+.xxxl {
+  font-size: 1.72rem; // 24px
+}
+
+.text-center {
+  text-align: center;
+}
+
+.underline {
+  text-decoration-line: underline;
+}

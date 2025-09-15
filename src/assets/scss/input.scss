@@ -1,0 +1,25 @@
+.search {
+  position: relative;
+  width: max-content;
+  display: inline-block;
+  input[type='search'] {
+    padding-left: 2rem;
+    padding-top: 0.4rem;
+    padding-bottom: 0.4rem;
+    &::placeholder {
+      padding-left: 0.1rem;
+    }
+  }
+  &::after {
+    content: '';
+    display: block;
+    height: 1em;
+    width: 1em;
+    background-image: url('/src/assets/images/search-icon.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+    top: 0.45em;
+    left: 0.65em;
+  }
+}

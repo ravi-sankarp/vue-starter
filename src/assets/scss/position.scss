@@ -1,0 +1,27 @@
+.fixed {
+  @include generate-responsive() {
+    position: fixed;
+  }
+}
+.relative {
+  @include generate-responsive() {
+    position: relative;
+  }
+}
+.absolute {
+  @include generate-responsive() {
+    position: absolute;
+  }
+}
+.sticky {
+  @include generate-responsive() {
+    position: sticky;
+  }
+}
+
+.sticky-top {
+  @include generate-responsive() {
+    position: sticky;
+    top: 0px;
+  }
+}
