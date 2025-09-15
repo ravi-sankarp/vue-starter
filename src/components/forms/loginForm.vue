@@ -1,7 +1,7 @@
 <template>
   <vee-form :validation-schema="schema" validate-on-change="true">
     <div class="center">
-      <img src="/src/assets/images/logo.png" alt="Introlines cargo" />
+      <img src="/src/assets/images/logo.png" alt="" />
     </div>
     <h4>{{ title }} Login</h4>
     <div class="form-items-container">
@@ -22,18 +22,17 @@
           <vee-error-message name="password" as="p" />
         </div>
       </div>
-      <Button type="submit" class="my-1 mb-4">Login</Button>
+      <button type="submit" class="my-1 mb-4">Login</button>
     </div>
   </vee-form>
 </template>
 <script>
 import { loginSchema } from '@/validations';
-import Button from '@/components/common/button.vue';
 import Alert from '@/components/common/alert.vue';
 import { Form as VeeForm, Field as VeeField, ErrorMessage as VeeErrorMessage } from 'vee-validate';
 export default {
   name: 'LoginForm',
-  components: { Button, Alert, VeeForm, VeeField, VeeErrorMessage },
+  components: { Alert, VeeForm, VeeField, VeeErrorMessage },
   props: {
     title: {
       type: String,

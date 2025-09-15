@@ -34,8 +34,8 @@
         </span>
       </div>
       <div class="flex gap-1">
-        <Button class="btn-outline" @click.stop="showItems = false">Cancel</Button>
-        <Button :disabled="!selectedStatusId" @click.stop="handleSelectStatus">Select</Button>
+        <button class="btn btn-outline" @click.stop="showItems = false">Cancel</button>
+        <button class="btn" :disabled="!selectedStatusId" @click.stop="handleSelectStatus">Select</button>
       </div>
     </div>
     <div
@@ -62,17 +62,15 @@
         </span>
       </div>
       <div class="flex gap-1">
-        <Button class="btn-outline" @click.stop="showItems = false">Cancel</Button>
-        <Button :disabled="!selectedStatusId" @click.stop="handleSelectStatus">Select</Button>
+        <button class="btn btn-outline" @click.stop="showItems = false">Cancel</button>
+        <button class="btn" :disabled="!selectedStatusId" @click.stop="handleSelectStatus">Select</button>
       </div>
     </div>
   </div>
 </template>
 <script>
-import Button from './button.vue';
 import { CargoStatus } from '@/constants';
 export default {
-  components: { Button },
   props: {
     currentStatus: {
       type: Number,

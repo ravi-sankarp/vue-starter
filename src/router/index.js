@@ -8,7 +8,7 @@ const router = createRouter({
     {
       path: '/',
       name: 'home',
-      meta: { title: 'Introlines - Cargo Service' },
+      meta: { title: '' },
       component: HomeView
     },
     {
@@ -16,64 +16,21 @@ const router = createRouter({
       name: 'Admin-landing',
       component: () => import('../views/Admin/index.vue'),
       beforeEnter: (to) => {
-        const path = to.fullPath;
-        const token = localStorage.getItem(Config.localstorageKeys.ADMIN_TOKEN);
-        if (!path.includes('login')) {
-          if (!token) {
-            return '/admin/login';
-          }
-        }
-        if (path.includes('login')) {
-          if (token) {
-            return '/admin/cargo';
-          }
-        }
+        // const path = to.fullPath;
+        // const token = localStorage.getItem(Config.localstorageKeys.ADMIN_TOKEN);
+        // if (!path.includes('login')) {
+        //   if (!token) {
+        //     return '/admin/login';
+        //   }
+        // }
+        // if (path.includes('login')) {
+        //   if (token) {
+        //     return '/admin/cargo';
+        //   }
+        // }
         return true;
       },
-      children: [
-        {
-          path: 'login',
-          name: 'Admin-login',
-          meta: { title: 'Login | Introlines' },
-          component: () => import('../views/Admin/Login/index.vue')
-        },
-        {
-          path: 'dashboard',
-          name: 'Admin-Dashboard',
-          meta: { title: 'Dashboard | Introlines' },
-          component: () => import('../views/Admin/Dashboard/index.vue')
-        },
-        {
-          path: 'cargo',
-          name: 'Admin-Cargo',
-          meta: { title: 'Cargo Details | Introlines' },
-          component: () => import('../views/Admin/Cargo/index.vue')
-        },
-        {
-          path: 'shipments',
-          name: 'Admin-Shipments',
-          meta: { title: 'Shipment Details | Introlines' },
-          component: () => import('../views/Admin/Shipments/index.vue')
-        },
-        {
-          path: 'employees',
-          name: 'Admin-Employees',
-          meta: { title: 'Employee Details | Introlines' },
-          component: () => import('../views/Admin/Employees/index.vue')
-        },
-        {
-          path: 'profile',
-          name: 'Admin-Profile',
-          meta: { title: 'Profile | Introlines' },
-          component: () => import('../views/Admin/Profile/index.vue')
-        },
-        {
-          path: 'settings',
-          name: 'Admin-Settings',
-          meta: { title: 'Admin Settings | Introlines' },
-          component: () => import('../views/Admin/Settings/index.vue')
-        }
-      ]
+      children: []
     },
     {
       path: '/:notfound',
@@ -89,7 +46,7 @@ router.beforeEach((to, from, next) => {
   if (title) {
     document.title = title;
   } else {
-    document.title = 'Introlines - Cargo Service';
+    document.title = '';
   }
   next();
 });

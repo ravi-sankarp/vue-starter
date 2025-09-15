@@ -1,7 +1,7 @@
 <template>
   <div v-if="!$route.path.includes('login')" class="sidebar-container">
     <aside class="sidebar">
-      <img class="sidebar-img" src="~@/assets/images/logo.png" alt="Introlines" />
+      <img class="sidebar-img" src="~@/assets/images/logo.png" alt="" />
       <div class="sidebar-items">
         <SidebarLink v-if="isAdmin" to="/admin/dashboard">
           <template #icon>
@@ -48,8 +48,8 @@
         <div>
           <span>Are you sure you want to logout </span>
           <div class="flex-end gap-1 mt-5">
-            <Button class="btn-black" @click="open = false">Cancel</Button>
-            <Button class="btn-error" @click="handleLogout">Confirm</Button>
+            <button class="btn btn-black" @click="open = false">Cancel</button>
+            <button class="btn btn-error" @click="handleLogout">Confirm</button>
           </div>
         </div>
       </modal>
@@ -60,7 +60,6 @@
 <script>
 import Config from '@/config';
 import Modal from '@/components/common/modal.vue';
-import Button from '@/components/common/button.vue';
 import HomeIcon from '../icons/Home.vue';
 import CargoIcon from '../icons/Cargo.vue';
 import EmployeeIcon from '../icons/Employee.vue';
@@ -80,8 +79,7 @@ export default {
     LogoutIcon,
     ProfileIcon,
     SettingsIcon,
-    Modal,
-    Button
+    Modal
   },
   data: () => ({
     open: false

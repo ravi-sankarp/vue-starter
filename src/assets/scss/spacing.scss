@@ -1,1567 +1,975 @@
 .mx-auto {
-  @include generate-responsive() {
-    margin: 0 auto;
-  }
+  margin: 0 auto;
 }
 .my-auto {
-  @include generate-responsive() {
-    margin: auto 0;
-  }
+  margin: auto 0;
 }
 .m-0 {
-  @include generate-responsive() {
-    margin: 0px;
-  }
+  margin: 0px;
 }
 .mx-0 {
-  @include generate-responsive() {
-    margin-left: 0px;
-    margin-right: 0px;
-  }
+  margin-left: 0px;
+  margin-right: 0px;
 }
 .my-0 {
-  @include generate-responsive() {
-    margin-top: 0px;
-    margin-bottom: 0px;
-  }
+  margin-top: 0px;
+  margin-bottom: 0px;
 }
 .ml-0 {
-  @include generate-responsive() {
-    margin-left: 0px;
-  }
+  margin-left: 0px;
 }
 .mr-0 {
-  @include generate-responsive() {
-    margin-right: 0px;
-  }
+  margin-right: 0px;
 }
 .mt-0 {
-  @include generate-responsive() {
-    margin-top: 0px;
-  }
+  margin-top: 0px;
 }
 .mb-0 {
-  @include generate-responsive() {
-    margin-bottom: 0px;
-  }
+  margin-bottom: 0px;
 }
 .m-1 {
-  @include generate-responsive() {
-    margin: 4px;
-  }
+  margin: 4px;
 }
 .mx-1 {
-  @include generate-responsive() {
-    margin-left: 4px;
-    margin-right: 4px;
-  }
+  margin-left: 4px;
+  margin-right: 4px;
 }
 .my-1 {
-  @include generate-responsive() {
-    margin-top: 4px;
-    margin-bottom: 4px;
-  }
+  margin-top: 4px;
+  margin-bottom: 4px;
 }
 .ml-auto {
   margin-left: auto;
 }
 .ml-1 {
-  @include generate-responsive() {
-    margin-left: 4px;
-  }
+  margin-left: 4px;
 }
 .mr-1 {
-  @include generate-responsive() {
-    margin-right: 4px;
-  }
+  margin-right: 4px;
 }
 .mt-1 {
-  @include generate-responsive() {
-    margin-top: 4px;
-  }
+  margin-top: 4px;
 }
 .mb-1 {
-  @include generate-responsive() {
-    margin-bottom: 4px;
-  }
+  margin-bottom: 4px;
 }
 .m-2 {
-  @include generate-responsive() {
-    margin: 8px;
-  }
+  margin: 8px;
 }
 .mx-2 {
-  @include generate-responsive() {
-    margin-left: 8px;
-    margin-right: 8px;
-  }
+  margin-left: 8px;
+  margin-right: 8px;
 }
 .my-2 {
-  @include generate-responsive() {
-    margin-top: 8px;
-    margin-bottom: 8px;
-  }
+  margin-top: 8px;
+  margin-bottom: 8px;
 }
 .ml-2 {
-  @include generate-responsive() {
-    margin-left: 8px;
-  }
+  margin-left: 8px;
 }
 .mr-2 {
-  @include generate-responsive() {
-    margin-right: 8px;
-  }
+  margin-right: 8px;
 }
 .mt-2 {
-  @include generate-responsive() {
-    margin-top: 8px;
-  }
+  margin-top: 8px;
 }
 .mb-2 {
-  @include generate-responsive() {
-    margin-bottom: 8px;
-  }
+  margin-bottom: 8px;
 }
 .m-3 {
-  @include generate-responsive() {
-    margin: 12px;
-  }
+  margin: 12px;
 }
 .mx-3 {
-  @include generate-responsive() {
-    margin-left: 12px;
-    margin-right: 12px;
-  }
+  margin-left: 12px;
+  margin-right: 12px;
 }
 .my-3 {
-  @include generate-responsive() {
-    margin-top: 12px;
-    margin-bottom: 12px;
-  }
+  margin-top: 12px;
+  margin-bottom: 12px;
 }
 .ml-3 {
-  @include generate-responsive() {
-    margin-left: 12px;
-  }
+  margin-left: 12px;
 }
 .mr-3 {
-  @include generate-responsive() {
-    margin-right: 12px;
-  }
+  margin-right: 12px;
 }
 .mt-3 {
-  @include generate-responsive() {
-    margin-top: 12px;
-  }
+  margin-top: 12px;
 }
 .mb-3 {
-  @include generate-responsive() {
-    margin-bottom: 12px;
-  }
+  margin-bottom: 12px;
 }
 .m-4 {
-  @include generate-responsive() {
-    margin: 16px;
-  }
+  margin: 16px;
 }
 .mx-4 {
-  @include generate-responsive() {
-    margin-left: 16px;
-    margin-right: 16px;
-  }
+  margin-left: 16px;
+  margin-right: 16px;
 }
 .my-4 {
-  @include generate-responsive() {
-    margin-top: 16px;
-    margin-bottom: 16px;
-  }
+  margin-top: 16px;
+  margin-bottom: 16px;
 }
 .ml-4 {
-  @include generate-responsive() {
-    margin-left: 16px;
-  }
+  margin-left: 16px;
 }
 .mr-4 {
-  @include generate-responsive() {
-    margin-right: 16px;
-  }
+  margin-right: 16px;
 }
 .mt-4 {
-  @include generate-responsive() {
-    margin-top: 16px;
-  }
+  margin-top: 16px;
 }
 .mb-4 {
-  @include generate-responsive() {
-    margin-bottom: 16px;
-  }
+  margin-bottom: 16px;
 }
 .m-5 {
-  @include generate-responsive() {
-    margin: 20px;
-  }
+  margin: 20px;
 }
 .mx-5 {
-  @include generate-responsive() {
-    margin-left: 20px;
-    margin-right: 20px;
-  }
+  margin-left: 20px;
+  margin-right: 20px;
 }
 .my-5 {
-  @include generate-responsive() {
-    margin-top: 20px;
-    margin-bottom: 20px;
-  }
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 .ml-5 {
-  @include generate-responsive() {
-    margin-left: 20px;
-  }
+  margin-left: 20px;
 }
 .mr-5 {
-  @include generate-responsive() {
-    margin-right: 20px;
-  }
+  margin-right: 20px;
 }
 .mt-5 {
-  @include generate-responsive() {
-    margin-top: 20px;
-  }
+  margin-top: 20px;
 }
 .mb-5 {
-  @include generate-responsive() {
-    margin-bottom: 20px;
-  }
+  margin-bottom: 20px;
 }
 .m-6 {
-  @include generate-responsive() {
-    margin: 24px;
-  }
+  margin: 24px;
 }
 .mx-6 {
-  @include generate-responsive() {
-    margin-left: 24px;
-    margin-right: 24px;
-  }
+  margin-left: 24px;
+  margin-right: 24px;
 }
 .my-6 {
-  @include generate-responsive() {
-    margin-top: 24px;
-    margin-bottom: 24px;
-  }
+  margin-top: 24px;
+  margin-bottom: 24px;
 }
 .ml-6 {
-  @include generate-responsive() {
-    margin-left: 24px;
-  }
+  margin-left: 24px;
 }
 .mr-6 {
-  @include generate-responsive() {
-    margin-right: 24px;
-  }
+  margin-right: 24px;
 }
 .mt-6 {
-  @include generate-responsive() {
-    margin-top: 24px;
-  }
+  margin-top: 24px;
 }
 .mb-6 {
-  @include generate-responsive() {
-    margin-bottom: 24px;
-  }
+  margin-bottom: 24px;
 }
 .m-7 {
-  @include generate-responsive() {
-    margin: 28px;
-  }
+  margin: 28px;
 }
 .mx-7 {
-  @include generate-responsive() {
-    margin-left: 28px;
-    margin-right: 28px;
-  }
+  margin-left: 28px;
+  margin-right: 28px;
 }
 .my-7 {
-  @include generate-responsive() {
-    margin-top: 28px;
-    margin-bottom: 28px;
-  }
+  margin-top: 28px;
+  margin-bottom: 28px;
 }
 .ml-7 {
-  @include generate-responsive() {
-    margin-left: 28px;
-  }
+  margin-left: 28px;
 }
 .mr-7 {
-  @include generate-responsive() {
-    margin-right: 28px;
-  }
+  margin-right: 28px;
 }
 .mt-7 {
-  @include generate-responsive() {
-    margin-top: 28px;
-  }
+  margin-top: 28px;
 }
 .mb-7 {
-  @include generate-responsive() {
-    margin-bottom: 28px;
-  }
+  margin-bottom: 28px;
 }
 .m-8 {
-  @include generate-responsive() {
-    margin: 32px;
-  }
+  margin: 32px;
 }
 .mx-8 {
-  @include generate-responsive() {
-    margin-left: 32px;
-    margin-right: 32px;
-  }
+  margin-left: 32px;
+  margin-right: 32px;
 }
 .my-8 {
-  @include generate-responsive() {
-    margin-top: 32px;
-    margin-bottom: 32px;
-  }
+  margin-top: 32px;
+  margin-bottom: 32px;
 }
 .ml-8 {
-  @include generate-responsive() {
-    margin-left: 32px;
-  }
+  margin-left: 32px;
 }
 .mr-8 {
-  @include generate-responsive() {
-    margin-right: 32px;
-  }
+  margin-right: 32px;
 }
 .mt-8 {
-  @include generate-responsive() {
-    margin-top: 32px;
-  }
+  margin-top: 32px;
 }
 .mb-8 {
-  @include generate-responsive() {
-    margin-bottom: 32px;
-  }
+  margin-bottom: 32px;
 }
 .m-9 {
-  @include generate-responsive() {
-    margin: 36px;
-  }
+  margin: 36px;
 }
 .mx-9 {
-  @include generate-responsive() {
-    margin-left: 36px;
-    margin-right: 36px;
-  }
+  margin-left: 36px;
+  margin-right: 36px;
 }
 .my-9 {
-  @include generate-responsive() {
-    margin-top: 36px;
-    margin-bottom: 36px;
-  }
+  margin-top: 36px;
+  margin-bottom: 36px;
 }
 .ml-9 {
-  @include generate-responsive() {
-    margin-left: 36px;
-  }
+  margin-left: 36px;
 }
 .mr-9 {
-  @include generate-responsive() {
-    margin-right: 36px;
-  }
+  margin-right: 36px;
 }
 .mt-9 {
-  @include generate-responsive() {
-    margin-top: 36px;
-  }
+  margin-top: 36px;
 }
 .mb-9 {
-  @include generate-responsive() {
-    margin-bottom: 36px;
-  }
+  margin-bottom: 36px;
 }
 .m-10 {
-  @include generate-responsive() {
-    margin: 40px;
-  }
+  margin: 40px;
 }
 .mx-10 {
-  @include generate-responsive() {
-    margin-left: 40px;
-    margin-right: 40px;
-  }
+  margin-left: 40px;
+  margin-right: 40px;
 }
 .my-10 {
-  @include generate-responsive() {
-    margin-top: 40px;
-    margin-bottom: 40px;
-  }
+  margin-top: 40px;
+  margin-bottom: 40px;
 }
 .ml-10 {
-  @include generate-responsive() {
-    margin-left: 40px;
-  }
+  margin-left: 40px;
 }
 .mr-10 {
-  @include generate-responsive() {
-    margin-right: 40px;
-  }
+  margin-right: 40px;
 }
 .mt-10 {
-  @include generate-responsive() {
-    margin-top: 40px;
-  }
+  margin-top: 40px;
 }
 .mb-10 {
-  @include generate-responsive() {
-    margin-bottom: 40px;
-  }
+  margin-bottom: 40px;
 }
 .m-11 {
-  @include generate-responsive() {
-    margin: 44px;
-  }
+  margin: 44px;
 }
 .mx-11 {
-  @include generate-responsive() {
-    margin-left: 44px;
-    margin-right: 44px;
-  }
+  margin-left: 44px;
+  margin-right: 44px;
 }
 .my-11 {
-  @include generate-responsive() {
-    margin-top: 44px;
-    margin-bottom: 44px;
-  }
+  margin-top: 44px;
+  margin-bottom: 44px;
 }
 .ml-11 {
-  @include generate-responsive() {
-    margin-left: 44px;
-  }
+  margin-left: 44px;
 }
 .mr-11 {
-  @include generate-responsive() {
-    margin-right: 44px;
-  }
+  margin-right: 44px;
 }
 .mt-11 {
-  @include generate-responsive() {
-    margin-top: 44px;
-  }
+  margin-top: 44px;
 }
 .mb-11 {
-  @include generate-responsive() {
-    margin-bottom: 44px;
-  }
+  margin-bottom: 44px;
 }
 .m-12 {
-  @include generate-responsive() {
-    margin: 48px;
-  }
+  margin: 48px;
 }
 .mx-12 {
-  @include generate-responsive() {
-    margin-left: 48px;
-    margin-right: 48px;
-  }
+  margin-left: 48px;
+  margin-right: 48px;
 }
 .my-12 {
-  @include generate-responsive() {
-    margin-top: 48px;
-    margin-bottom: 48px;
-  }
+  margin-top: 48px;
+  margin-bottom: 48px;
 }
 .ml-12 {
-  @include generate-responsive() {
-    margin-left: 48px;
-  }
+  margin-left: 48px;
 }
 .mr-12 {
-  @include generate-responsive() {
-    margin-right: 48px;
-  }
+  margin-right: 48px;
 }
 .mt-12 {
-  @include generate-responsive() {
-    margin-top: 48px;
-  }
+  margin-top: 48px;
 }
 .mb-12 {
-  @include generate-responsive() {
-    margin-bottom: 48px;
-  }
+  margin-bottom: 48px;
 }
 .m-13 {
-  @include generate-responsive() {
-    margin: 52px;
-  }
+  margin: 52px;
 }
 .mx-13 {
-  @include generate-responsive() {
-    margin-left: 52px;
-    margin-right: 52px;
-  }
+  margin-left: 52px;
+  margin-right: 52px;
 }
 .my-13 {
-  @include generate-responsive() {
-    margin-top: 52px;
-    margin-bottom: 52px;
-  }
+  margin-top: 52px;
+  margin-bottom: 52px;
 }
 .ml-13 {
-  @include generate-responsive() {
-    margin-left: 52px;
-  }
+  margin-left: 52px;
 }
 .mr-13 {
-  @include generate-responsive() {
-    margin-right: 52px;
-  }
+  margin-right: 52px;
 }
 .mt-13 {
-  @include generate-responsive() {
-    margin-top: 52px;
-  }
+  margin-top: 52px;
 }
 .mb-13 {
-  @include generate-responsive() {
-    margin-bottom: 52px;
-  }
+  margin-bottom: 52px;
 }
 .m-14 {
-  @include generate-responsive() {
-    margin: 56px;
-  }
+  margin: 56px;
 }
 .mx-14 {
-  @include generate-responsive() {
-    margin-left: 56px;
-    margin-right: 56px;
-  }
+  margin-left: 56px;
+  margin-right: 56px;
 }
 .my-14 {
-  @include generate-responsive() {
-    margin-top: 56px;
-    margin-bottom: 56px;
-  }
+  margin-top: 56px;
+  margin-bottom: 56px;
 }
 .ml-14 {
-  @include generate-responsive() {
-    margin-left: 56px;
-  }
+  margin-left: 56px;
 }
 .mr-14 {
-  @include generate-responsive() {
-    margin-right: 56px;
-  }
+  margin-right: 56px;
 }
 .mt-14 {
-  @include generate-responsive() {
-    margin-top: 56px;
-  }
+  margin-top: 56px;
 }
 .mb-14 {
-  @include generate-responsive() {
-    margin-bottom: 56px;
-  }
+  margin-bottom: 56px;
 }
 .m-15 {
-  @include generate-responsive() {
-    margin: 60px;
-  }
+  margin: 60px;
 }
 .mx-15 {
-  @include generate-responsive() {
-    margin-left: 60px;
-    margin-right: 60px;
-  }
+  margin-left: 60px;
+  margin-right: 60px;
 }
 .my-15 {
-  @include generate-responsive() {
-    margin-top: 60px;
-    margin-bottom: 60px;
-  }
+  margin-top: 60px;
+  margin-bottom: 60px;
 }
 .ml-15 {
-  @include generate-responsive() {
-    margin-left: 60px;
-  }
+  margin-left: 60px;
 }
 .mr-15 {
-  @include generate-responsive() {
-    margin-right: 60px;
-  }
+  margin-right: 60px;
 }
 .mt-15 {
-  @include generate-responsive() {
-    margin-top: 60px;
-  }
+  margin-top: 60px;
 }
 .mb-15 {
-  @include generate-responsive() {
-    margin-bottom: 60px;
-  }
+  margin-bottom: 60px;
 }
 .m-16 {
-  @include generate-responsive() {
-    margin: 64px;
-  }
+  margin: 64px;
 }
 .mx-16 {
-  @include generate-responsive() {
-    margin-left: 64px;
-    margin-right: 64px;
-  }
+  margin-left: 64px;
+  margin-right: 64px;
 }
 .my-16 {
-  @include generate-responsive() {
-    margin-top: 64px;
-    margin-bottom: 64px;
-  }
+  margin-top: 64px;
+  margin-bottom: 64px;
 }
 .ml-16 {
-  @include generate-responsive() {
-    margin-left: 64px;
-  }
+  margin-left: 64px;
 }
 .mr-16 {
-  @include generate-responsive() {
-    margin-right: 64px;
-  }
+  margin-right: 64px;
 }
 .mt-16 {
-  @include generate-responsive() {
-    margin-top: 64px;
-  }
+  margin-top: 64px;
 }
 .mb-16 {
-  @include generate-responsive() {
-    margin-bottom: 64px;
-  }
+  margin-bottom: 64px;
 }
 .m-17 {
-  @include generate-responsive() {
-    margin: 68px;
-  }
+  margin: 68px;
 }
 .mx-17 {
-  @include generate-responsive() {
-    margin-left: 68px;
-    margin-right: 68px;
-  }
+  margin-left: 68px;
+  margin-right: 68px;
 }
 .my-17 {
-  @include generate-responsive() {
-    margin-top: 68px;
-    margin-bottom: 68px;
-  }
+  margin-top: 68px;
+  margin-bottom: 68px;
 }
 .ml-17 {
-  @include generate-responsive() {
-    margin-left: 68px;
-  }
+  margin-left: 68px;
 }
 .mr-17 {
-  @include generate-responsive() {
-    margin-right: 68px;
-  }
+  margin-right: 68px;
 }
 .mt-17 {
-  @include generate-responsive() {
-    margin-top: 68px;
-  }
+  margin-top: 68px;
 }
 .mb-17 {
-  @include generate-responsive() {
-    margin-bottom: 68px;
-  }
+  margin-bottom: 68px;
 }
 .m-18 {
-  @include generate-responsive() {
-    margin: 72px;
-  }
+  margin: 72px;
 }
 .mx-18 {
-  @include generate-responsive() {
-    margin-left: 72px;
-    margin-right: 72px;
-  }
+  margin-left: 72px;
+  margin-right: 72px;
 }
 .my-18 {
-  @include generate-responsive() {
-    margin-top: 72px;
-    margin-bottom: 72px;
-  }
+  margin-top: 72px;
+  margin-bottom: 72px;
 }
 .ml-18 {
-  @include generate-responsive() {
-    margin-left: 72px;
-  }
+  margin-left: 72px;
 }
 .mr-18 {
-  @include generate-responsive() {
-    margin-right: 72px;
-  }
+  margin-right: 72px;
 }
 .mt-18 {
-  @include generate-responsive() {
-    margin-top: 72px;
-  }
+  margin-top: 72px;
 }
 .mb-18 {
-  @include generate-responsive() {
-    margin-bottom: 72px;
-  }
+  margin-bottom: 72px;
 }
 .m-19 {
-  @include generate-responsive() {
-    margin: 76px;
-  }
+  margin: 76px;
 }
 .mx-19 {
-  @include generate-responsive() {
-    margin-left: 76px;
-    margin-right: 76px;
-  }
+  margin-left: 76px;
+  margin-right: 76px;
 }
 .my-19 {
-  @include generate-responsive() {
-    margin-top: 76px;
-    margin-bottom: 76px;
-  }
+  margin-top: 76px;
+  margin-bottom: 76px;
 }
 .ml-19 {
-  @include generate-responsive() {
-    margin-left: 76px;
-  }
+  margin-left: 76px;
 }
 .mr-19 {
-  @include generate-responsive() {
-    margin-right: 76px;
-  }
+  margin-right: 76px;
 }
 .mt-19 {
-  @include generate-responsive() {
-    margin-top: 76px;
-  }
+  margin-top: 76px;
 }
 .mb-19 {
-  @include generate-responsive() {
-    margin-bottom: 76px;
-  }
+  margin-bottom: 76px;
 }
 .m-20 {
-  @include generate-responsive() {
-    margin: 80px;
-  }
+  margin: 80px;
 }
 .mx-20 {
-  @include generate-responsive() {
-    margin-left: 80px;
-    margin-right: 80px;
-  }
+  margin-left: 80px;
+  margin-right: 80px;
 }
 .my-20 {
-  @include generate-responsive() {
-    margin-top: 80px;
-    margin-bottom: 80px;
-  }
+  margin-top: 80px;
+  margin-bottom: 80px;
 }
 .ml-20 {
-  @include generate-responsive() {
-    margin-left: 80px;
-  }
+  margin-left: 80px;
 }
 .mr-20 {
-  @include generate-responsive() {
-    margin-right: 80px;
-  }
+  margin-right: 80px;
 }
 .mt-20 {
-  @include generate-responsive() {
-    margin-top: 80px;
-  }
+  margin-top: 80px;
 }
 .mb-20 {
-  @include generate-responsive() {
-    margin-bottom: 80px;
-  }
+  margin-bottom: 80px;
 }
 .p-0 {
-  @include generate-responsive() {
-    padding: 0px;
-  }
+  padding: 0px;
 }
 .px-0 {
-  @include generate-responsive() {
-    padding-left: 0px;
-    padding-right: 0px;
-  }
+  padding-left: 0px;
+  padding-right: 0px;
 }
 .py-0 {
-  @include generate-responsive() {
-    padding-top: 0px;
-    padding-bottom: 0px;
-  }
+  padding-top: 0px;
+  padding-bottom: 0px;
 }
 .pl-0 {
-  @include generate-responsive() {
-    padding-left: 0px;
-  }
+  padding-left: 0px;
 }
 .pr-0 {
-  @include generate-responsive() {
-    padding-right: 0px;
-  }
+  padding-right: 0px;
 }
 .pt-0 {
-  @include generate-responsive() {
-    padding-top: 0px;
-  }
+  padding-top: 0px;
 }
 .pb-0 {
-  @include generate-responsive() {
-    padding-bottom: 0px;
-  }
+  padding-bottom: 0px;
 }
 .p-1 {
-  @include generate-responsive() {
-    padding: 4px;
-  }
+  padding: 4px;
 }
 .px-1 {
-  @include generate-responsive() {
-    padding-left: 4px;
-    padding-right: 4px;
-  }
+  padding-left: 4px;
+  padding-right: 4px;
 }
 .py-1 {
-  @include generate-responsive() {
-    padding-top: 4px;
-    padding-bottom: 4px;
-  }
+  padding-top: 4px;
+  padding-bottom: 4px;
 }
 .pl-1 {
-  @include generate-responsive() {
-    padding-left: 4px;
-  }
+  padding-left: 4px;
 }
 .pr-1 {
-  @include generate-responsive() {
-    padding-right: 4px;
-  }
+  padding-right: 4px;
 }
 .pt-1 {
-  @include generate-responsive() {
-    padding-top: 4px;
-  }
+  padding-top: 4px;
 }
 .pb-1 {
-  @include generate-responsive() {
-    padding-bottom: 4px;
-  }
+  padding-bottom: 4px;
 }
 .p-2 {
-  @include generate-responsive() {
-    padding: 8px;
-  }
+  padding: 8px;
 }
 .px-2 {
-  @include generate-responsive() {
-    padding-left: 8px;
-    padding-right: 8px;
-  }
+  padding-left: 8px;
+  padding-right: 8px;
 }
 .py-2 {
-  @include generate-responsive() {
-    padding-top: 8px;
-    padding-bottom: 8px;
-  }
+  padding-top: 8px;
+  padding-bottom: 8px;
 }
 .pl-2 {
-  @include generate-responsive() {
-    padding-left: 8px;
-  }
+  padding-left: 8px;
 }
 .pr-2 {
-  @include generate-responsive() {
-    padding-right: 8px;
-  }
+  padding-right: 8px;
 }
 .pt-2 {
-  @include generate-responsive() {
-    padding-top: 8px;
-  }
+  padding-top: 8px;
 }
 .pb-2 {
-  @include generate-responsive() {
-    padding-bottom: 8px;
-  }
+  padding-bottom: 8px;
 }
 .p-3 {
-  @include generate-responsive() {
-    padding: 12px;
-  }
+  padding: 12px;
 }
 .px-3 {
-  @include generate-responsive() {
-    padding-left: 12px;
-    padding-right: 12px;
-  }
+  padding-left: 12px;
+  padding-right: 12px;
 }
 .py-3 {
-  @include generate-responsive() {
-    padding-top: 12px;
-    padding-bottom: 12px;
-  }
+  padding-top: 12px;
+  padding-bottom: 12px;
 }
 .pl-3 {
-  @include generate-responsive() {
-    padding-left: 12px;
-  }
+  padding-left: 12px;
 }
 .pr-3 {
-  @include generate-responsive() {
-    padding-right: 12px;
-  }
+  padding-right: 12px;
 }
 .pt-3 {
-  @include generate-responsive() {
-    padding-top: 12px;
-  }
+  padding-top: 12px;
 }
 .pb-3 {
-  @include generate-responsive() {
-    padding-bottom: 12px;
-  }
+  padding-bottom: 12px;
 }
 .p-4 {
-  @include generate-responsive() {
-    padding: 16px;
-  }
+  padding: 16px;
 }
 .px-4 {
-  @include generate-responsive() {
-    padding-left: 16px;
-    padding-right: 16px;
-  }
+  padding-left: 16px;
+  padding-right: 16px;
 }
 .py-4 {
-  @include generate-responsive() {
-    padding-top: 16px;
-    padding-bottom: 16px;
-  }
+  padding-top: 16px;
+  padding-bottom: 16px;
 }
 .pl-4 {
-  @include generate-responsive() {
-    padding-left: 16px;
-  }
+  padding-left: 16px;
 }
 .pr-4 {
-  @include generate-responsive() {
-    padding-right: 16px;
-  }
+  padding-right: 16px;
 }
 .pt-4 {
-  @include generate-responsive() {
-    padding-top: 16px;
-  }
+  padding-top: 16px;
 }
 .pb-4 {
-  @include generate-responsive() {
-    padding-bottom: 16px;
-  }
+  padding-bottom: 16px;
 }
 .p-5 {
-  @include generate-responsive() {
-    padding: 20px;
-  }
+  padding: 20px;
 }
 .px-5 {
-  @include generate-responsive() {
-    padding-left: 20px;
-    padding-right: 20px;
-  }
+  padding-left: 20px;
+  padding-right: 20px;
 }
 .py-5 {
-  @include generate-responsive() {
-    padding-top: 20px;
-    padding-bottom: 20px;
-  }
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 .pl-5 {
-  @include generate-responsive() {
-    padding-left: 20px;
-  }
+  padding-left: 20px;
 }
 .pr-5 {
-  @include generate-responsive() {
-    padding-right: 20px;
-  }
+  padding-right: 20px;
 }
 .pt-5 {
-  @include generate-responsive() {
-    padding-top: 20px;
-  }
+  padding-top: 20px;
 }
 .pb-5 {
-  @include generate-responsive() {
-    padding-bottom: 20px;
-  }
+  padding-bottom: 20px;
 }
 .p-6 {
-  @include generate-responsive() {
-    padding: 24px;
-  }
+  padding: 24px;
 }
 .px-6 {
-  @include generate-responsive() {
-    padding-left: 24px;
-    padding-right: 24px;
-  }
+  padding-left: 24px;
+  padding-right: 24px;
 }
 .py-6 {
-  @include generate-responsive() {
-    padding-top: 24px;
-    padding-bottom: 24px;
-  }
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 .pl-6 {
-  @include generate-responsive() {
-    padding-left: 24px;
-  }
+  padding-left: 24px;
 }
 .pr-6 {
-  @include generate-responsive() {
-    padding-right: 24px;
-  }
+  padding-right: 24px;
 }
 .pt-6 {
-  @include generate-responsive() {
-    padding-top: 24px;
-  }
+  padding-top: 24px;
 }
 .pb-6 {
-  @include generate-responsive() {
-    padding-bottom: 24px;
-  }
+  padding-bottom: 24px;
 }
 .p-7 {
-  @include generate-responsive() {
-    padding: 28px;
-  }
+  padding: 28px;
 }
 .px-7 {
-  @include generate-responsive() {
-    padding-left: 28px;
-    padding-right: 28px;
-  }
+  padding-left: 28px;
+  padding-right: 28px;
 }
 .py-7 {
-  @include generate-responsive() {
-    padding-top: 28px;
-    padding-bottom: 28px;
-  }
+  padding-top: 28px;
+  padding-bottom: 28px;
 }
 .pl-7 {
-  @include generate-responsive() {
-    padding-left: 28px;
-  }
+  padding-left: 28px;
 }
 .pr-7 {
-  @include generate-responsive() {
-    padding-right: 28px;
-  }
+  padding-right: 28px;
 }
 .pt-7 {
-  @include generate-responsive() {
-    padding-top: 28px;
-  }
+  padding-top: 28px;
 }
 .pb-7 {
-  @include generate-responsive() {
-    padding-bottom: 28px;
-  }
+  padding-bottom: 28px;
 }
 .p-8 {
-  @include generate-responsive() {
-    padding: 32px;
-  }
+  padding: 32px;
 }
 .px-8 {
-  @include generate-responsive() {
-    padding-left: 32px;
-    padding-right: 32px;
-  }
+  padding-left: 32px;
+  padding-right: 32px;
 }
 .py-8 {
-  @include generate-responsive() {
-    padding-top: 32px;
-    padding-bottom: 32px;
-  }
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 .pl-8 {
-  @include generate-responsive() {
-    padding-left: 32px;
-  }
+  padding-left: 32px;
 }
 .pr-8 {
-  @include generate-responsive() {
-    padding-right: 32px;
-  }
+  padding-right: 32px;
 }
 .pt-8 {
-  @include generate-responsive() {
-    padding-top: 32px;
-  }
+  padding-top: 32px;
 }
 .pb-8 {
-  @include generate-responsive() {
-    padding-bottom: 32px;
-  }
+  padding-bottom: 32px;
 }
 .p-9 {
-  @include generate-responsive() {
-    padding: 36px;
-  }
+  padding: 36px;
 }
 .px-9 {
-  @include generate-responsive() {
-    padding-left: 36px;
-    padding-right: 36px;
-  }
+  padding-left: 36px;
+  padding-right: 36px;
 }
 .py-9 {
-  @include generate-responsive() {
-    padding-top: 36px;
-    padding-bottom: 36px;
-  }
+  padding-top: 36px;
+  padding-bottom: 36px;
 }
 .pl-9 {
-  @include generate-responsive() {
-    padding-left: 36px;
-  }
+  padding-left: 36px;
 }
 .pr-9 {
-  @include generate-responsive() {
-    padding-right: 36px;
-  }
+  padding-right: 36px;
 }
 .pt-9 {
-  @include generate-responsive() {
-    padding-top: 36px;
-  }
+  padding-top: 36px;
 }
 .pb-9 {
-  @include generate-responsive() {
-    padding-bottom: 36px;
-  }
+  padding-bottom: 36px;
 }
 .p-10 {
-  @include generate-responsive() {
-    padding: 40px;
-  }
+  padding: 40px;
 }
 .px-10 {
-  @include generate-responsive() {
-    padding-left: 40px;
-    padding-right: 40px;
-  }
+  padding-left: 40px;
+  padding-right: 40px;
 }
 .py-10 {
-  @include generate-responsive() {
-    padding-top: 40px;
-    padding-bottom: 40px;
-  }
+  padding-top: 40px;
+  padding-bottom: 40px;
 }
 .pl-10 {
-  @include generate-responsive() {
-    padding-left: 40px;
-  }
+  padding-left: 40px;
 }
 .pr-10 {
-  @include generate-responsive() {
-    padding-right: 40px;
-  }
+  padding-right: 40px;
 }
 .pt-10 {
-  @include generate-responsive() {
-    padding-top: 40px;
-  }
+  padding-top: 40px;
 }
 .pb-10 {
-  @include generate-responsive() {
-    padding-bottom: 40px;
-  }
+  padding-bottom: 40px;
 }
 .p-11 {
-  @include generate-responsive() {
-    padding: 44px;
-  }
+  padding: 44px;
 }
 .px-11 {
-  @include generate-responsive() {
-    padding-left: 44px;
-    padding-right: 44px;
-  }
+  padding-left: 44px;
+  padding-right: 44px;
 }
 .py-11 {
-  @include generate-responsive() {
-    padding-top: 44px;
-    padding-bottom: 44px;
-  }
+  padding-top: 44px;
+  padding-bottom: 44px;
 }
 .pl-11 {
-  @include generate-responsive() {
-    padding-left: 44px;
-  }
+  padding-left: 44px;
 }
 .pr-11 {
-  @include generate-responsive() {
-    padding-right: 44px;
-  }
+  padding-right: 44px;
 }
 .pt-11 {
-  @include generate-responsive() {
-    padding-top: 44px;
-  }
+  padding-top: 44px;
 }
 .pb-11 {
-  @include generate-responsive() {
-    padding-bottom: 44px;
-  }
+  padding-bottom: 44px;
 }
 .p-12 {
-  @include generate-responsive() {
-    padding: 48px;
-  }
+  padding: 48px;
 }
 .px-12 {
-  @include generate-responsive() {
-    padding-left: 48px;
-    padding-right: 48px;
-  }
+  padding-left: 48px;
+  padding-right: 48px;
 }
 .py-12 {
-  @include generate-responsive() {
-    padding-top: 48px;
-    padding-bottom: 48px;
-  }
+  padding-top: 48px;
+  padding-bottom: 48px;
 }
 .pl-12 {
-  @include generate-responsive() {
-    padding-left: 48px;
-  }
+  padding-left: 48px;
 }
 .pr-12 {
-  @include generate-responsive() {
-    padding-right: 48px;
-  }
+  padding-right: 48px;
 }
 .pt-12 {
-  @include generate-responsive() {
-    padding-top: 48px;
-  }
+  padding-top: 48px;
 }
 .pb-12 {
-  @include generate-responsive() {
-    padding-bottom: 48px;
-  }
+  padding-bottom: 48px;
 }
 .p-13 {
-  @include generate-responsive() {
-    padding: 52px;
-  }
+  padding: 52px;
 }
 .px-13 {
-  @include generate-responsive() {
-    padding-left: 52px;
-    padding-right: 52px;
-  }
+  padding-left: 52px;
+  padding-right: 52px;
 }
 .py-13 {
-  @include generate-responsive() {
-    padding-top: 52px;
-    padding-bottom: 52px;
-  }
+  padding-top: 52px;
+  padding-bottom: 52px;
 }
 .pl-13 {
-  @include generate-responsive() {
-    padding-left: 52px;
-  }
+  padding-left: 52px;
 }
 .pr-13 {
-  @include generate-responsive() {
-    padding-right: 52px;
-  }
+  padding-right: 52px;
 }
 .pt-13 {
-  @include generate-responsive() {
-    padding-top: 52px;
-  }
+  padding-top: 52px;
 }
 .pb-13 {
-  @include generate-responsive() {
-    padding-bottom: 52px;
-  }
+  padding-bottom: 52px;
 }
 .p-14 {
-  @include generate-responsive() {
-    padding: 56px;
-  }
+  padding: 56px;
 }
 .px-14 {
-  @include generate-responsive() {
-    padding-left: 56px;
-    padding-right: 56px;
-  }
+  padding-left: 56px;
+  padding-right: 56px;
 }
 .py-14 {
-  @include generate-responsive() {
-    padding-top: 56px;
-    padding-bottom: 56px;
-  }
+  padding-top: 56px;
+  padding-bottom: 56px;
 }
 .pl-14 {
-  @include generate-responsive() {
-    padding-left: 56px;
-  }
+  padding-left: 56px;
 }
 .pr-14 {
-  @include generate-responsive() {
-    padding-right: 56px;
-  }
+  padding-right: 56px;
 }
 .pt-14 {
-  @include generate-responsive() {
-    padding-top: 56px;
-  }
+  padding-top: 56px;
 }
 .pb-14 {
-  @include generate-responsive() {
-    padding-bottom: 56px;
-  }
+  padding-bottom: 56px;
 }
 .p-15 {
-  @include generate-responsive() {
-    padding: 60px;
-  }
+  padding: 60px;
 }
 .px-15 {
-  @include generate-responsive() {
-    padding-left: 60px;
-    padding-right: 60px;
-  }
+  padding-left: 60px;
+  padding-right: 60px;
 }
 .py-15 {
-  @include generate-responsive() {
-    padding-top: 60px;
-    padding-bottom: 60px;
-  }
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 .pl-15 {
-  @include generate-responsive() {
-    padding-left: 60px;
-  }
+  padding-left: 60px;
 }
 .pr-15 {
-  @include generate-responsive() {
-    padding-right: 60px;
-  }
+  padding-right: 60px;
 }
 .pt-15 {
-  @include generate-responsive() {
-    padding-top: 60px;
-  }
+  padding-top: 60px;
 }
 .pb-15 {
-  @include generate-responsive() {
-    padding-bottom: 60px;
-  }
+  padding-bottom: 60px;
 }
 .p-16 {
-  @include generate-responsive() {
-    padding: 64px;
-  }
+  padding: 64px;
 }
 .px-16 {
-  @include generate-responsive() {
-    padding-left: 64px;
-    padding-right: 64px;
-  }
+  padding-left: 64px;
+  padding-right: 64px;
 }
 .py-16 {
-  @include generate-responsive() {
-    padding-top: 64px;
-    padding-bottom: 64px;
-  }
+  padding-top: 64px;
+  padding-bottom: 64px;
 }
 .pl-16 {
-  @include generate-responsive() {
-    padding-left: 64px;
-  }
+  padding-left: 64px;
 }
 .pr-16 {
-  @include generate-responsive() {
-    padding-right: 64px;
-  }
+  padding-right: 64px;
 }
 .pt-16 {
-  @include generate-responsive() {
-    padding-top: 64px;
-  }
+  padding-top: 64px;
 }
 .pb-16 {
-  @include generate-responsive() {
-    padding-bottom: 64px;
-  }
+  padding-bottom: 64px;
 }
 .p-17 {
-  @include generate-responsive() {
-    padding: 68px;
-  }
+  padding: 68px;
 }
 .px-17 {
-  @include generate-responsive() {
-    padding-left: 68px;
-    padding-right: 68px;
-  }
+  padding-left: 68px;
+  padding-right: 68px;
 }
 .py-17 {
-  @include generate-responsive() {
-    padding-top: 68px;
-    padding-bottom: 68px;
-  }
+  padding-top: 68px;
+  padding-bottom: 68px;
 }
 .pl-17 {
-  @include generate-responsive() {
-    padding-left: 68px;
-  }
+  padding-left: 68px;
 }
 .pr-17 {
-  @include generate-responsive() {
-    padding-right: 68px;
-  }
+  padding-right: 68px;
 }
 .pt-17 {
-  @include generate-responsive() {
-    padding-top: 68px;
-  }
+  padding-top: 68px;
 }
 .pb-17 {
-  @include generate-responsive() {
-    padding-bottom: 68px;
-  }
+  padding-bottom: 68px;
 }
 .p-18 {
-  @include generate-responsive() {
-    padding: 72px;
-  }
+  padding: 72px;
 }
 .px-18 {
-  @include generate-responsive() {
-    padding-left: 72px;
-    padding-right: 72px;
-  }
+  padding-left: 72px;
+  padding-right: 72px;
 }
 .py-18 {
-  @include generate-responsive() {
-    padding-top: 72px;
-    padding-bottom: 72px;
-  }
+  padding-top: 72px;
+  padding-bottom: 72px;
 }
 .pl-18 {
-  @include generate-responsive() {
-    padding-left: 72px;
-  }
+  padding-left: 72px;
 }
 .pr-18 {
-  @include generate-responsive() {
-    padding-right: 72px;
-  }
+  padding-right: 72px;
 }
 .pt-18 {
-  @include generate-responsive() {
-    padding-top: 72px;
-  }
+  padding-top: 72px;
 }
 .pb-18 {
-  @include generate-responsive() {
-    padding-bottom: 72px;
-  }
+  padding-bottom: 72px;
 }
 .p-19 {
-  @include generate-responsive() {
-    padding: 76px;
-  }
+  padding: 76px;
 }
 .px-19 {
-  @include generate-responsive() {
-    padding-left: 76px;
-    padding-right: 76px;
-  }
+  padding-left: 76px;
+  padding-right: 76px;
 }
 .py-19 {
-  @include generate-responsive() {
-    padding-top: 76px;
-    padding-bottom: 76px;
-  }
+  padding-top: 76px;
+  padding-bottom: 76px;
 }
 .pl-19 {
-  @include generate-responsive() {
-    padding-left: 76px;
-  }
+  padding-left: 76px;
 }
 .pr-19 {
-  @include generate-responsive() {
-    padding-right: 76px;
-  }
+  padding-right: 76px;
 }
 .pt-19 {
-  @include generate-responsive() {
-    padding-top: 76px;
-  }
+  padding-top: 76px;
 }
 .pb-19 {
-  @include generate-responsive() {
-    padding-bottom: 76px;
-  }
+  padding-bottom: 76px;
 }
 .p-20 {
-  @include generate-responsive() {
-    padding: 80px;
-  }
+  padding: 80px;
 }
 .px-20 {
-  @include generate-responsive() {
-    padding-left: 80px;
-    padding-right: 80px;
-  }
+  padding-left: 80px;
+  padding-right: 80px;
 }
 .py-20 {
-  @include generate-responsive() {
-    padding-top: 80px;
-    padding-bottom: 80px;
-  }
+  padding-top: 80px;
+  padding-bottom: 80px;
 }
 .pl-20 {
-  @include generate-responsive() {
-    padding-left: 80px;
-  }
+  padding-left: 80px;
 }
 .pr-20 {
-  @include generate-responsive() {
-    padding-right: 80px;
-  }
+  padding-right: 80px;
 }
 .pt-20 {
-  @include generate-responsive() {
-    padding-top: 80px;
-  }
+  padding-top: 80px;
 }
 .pb-20 {
-  @include generate-responsive() {
-    padding-bottom: 80px;
-  }
+  padding-bottom: 80px;
 }

@@ -83,7 +83,6 @@ export default {
 </script>
 
 <style lang="scss">
-@import '@/assets/scss/vars';
 
 .carousel {
   position: relative;
@@ -102,9 +101,6 @@ export default {
       height: 100%;
       aspect-ratio: 16/9;
       object-fit: cover;
-      @media (max-width: $md) {
-        object-fit: cover;
-      }
     }
   }
   .navigate {

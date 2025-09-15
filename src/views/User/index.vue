@@ -29,7 +29,6 @@ export default {
 </script>
 <style lang="scss">
 @import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
-@import '@/assets/scss/vars';
 
 .user-home-container {
   font-family: 'Inter', sans-serif !important;
@@ -37,13 +36,6 @@ export default {
   .home-carousel {
     height: clamp(100vh, 100vh, 100vh);
 
-    @media (max-width: $md) {
-      height: clamp(70vh, 70vh, 70vh);
-    }
-
-    @media (max-width: $sm) {
-      height: clamp(50vh, 50vh, 50vh);
-    }
   }
 
   .main-content {
@@ -80,17 +72,6 @@ export default {
     transition: background 0.4s ease;
     z-index: 1000;
 
-    @media (max-width: $md) {
-      bottom: 10px;
-      left: 20px;
-      width: 40px;
-      height: 40px;
-
-      svg {
-        width: 1.5rem;
-        height: 1.5rem;
-      }
-    }
 
     &:hover {
       background-color: #0fdb00;
@@ -104,10 +85,6 @@ export default {
       width: 2.5rem;
       height: 2.5rem;
 
-      @media (max-width: $md) {
-        width: 1.5rem;
-        height: 1.5rem;
-      }
     }
   }
 }

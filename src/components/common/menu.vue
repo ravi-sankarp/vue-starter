@@ -8,17 +8,15 @@
       </div>
       <div class="clear flex-end mr-3" @click="$emit('clear')"><span>Clear All</span></div>
       <div class="space-around px-2 my-1">
-        <Button class="btn-outline" @click.stop="$emit('close')">Cancel</Button>
-        <Button @click.stop="$emit('apply')">Apply</Button>
+        <button class="btn btn-outline" @click.stop="$emit('close')">Cancel</button>
+        <button class="btn" @click.stop="$emit('apply')">Apply</button>
       </div>
     </div>
   </div>
 </template>
 <script>
-import Button from './button.vue';
 export default {
   name: 'MenuBar',
-  components: { Button },
   props: {
     open: {
       type: Boolean,

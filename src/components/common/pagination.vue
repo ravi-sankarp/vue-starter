@@ -1,39 +1,38 @@
 <template>
   <div class="pagination my-2 flex">
-    <vue-button
+    <button
       :disabled="pageNumber === 1"
-      class="btn-outline"
+      class="btn btn-outline"
       @click="$emit('select-page', pageNumber - 1)"
     >
       &#60;
-    </vue-button>
+    </button>
     <div v-for="num in numberArray" :key="num.id">
       <span v-if="num === -1"> ... </span>
-      <vue-button
+      <button
         v-else
+        class="btn"
         :class="{
           'btn-outline': num !== pageNumber
         }"
         @click="$emit('select-page', num)"
       >
         {{ num }}
-      </vue-button>
+      </button>
     </div>
-    <vue-button
+    <button
       :disabled="pageNumber === totalPage || totalPage === 0"
-      class="btn-outline"
+      class="btn btn-outline"
       @click="$emit('select-page', pageNumber + 1)"
     >
       &#62;
-    </vue-button>
+    </button>
   </div>
 </template>
 
 <script>
-import VueButton from './button.vue';
 export default {
   name: 'Pagination',
-  components: { VueButton },
   props: {
     length: {
       type: Number,
